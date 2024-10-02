@@ -33,3 +33,4 @@ runs:
       env:
         TEST_VERSIONS: ${{ inputs.test-versions }}
         PATHS: ${{ inputs.paths }}
+        REPORT_TYPE: ${{ inputs.report-type }}
